@@ -1,8 +1,8 @@
 function sendMessage(e) {
   e.preventDefault();
 
-  var i = 0;
-  var element = document.getElementById("messagesContainer");
+  let i = 0;
+  const element = document.getElementById("messagesContainer");
 
   const messages = [
     { text: "teste", className: "myMessage" },
@@ -17,11 +17,10 @@ function sendMessage(e) {
       return;
     }
 
-    let div = document.createElement("div");
+    const div = document.createElement("div");
     div.classList.add(messages[i].className);
     div.append(messages[i].text);
     element.append(div);
-    console.log(i);
 
     element.scrollTo(0, element.scrollHeight);
     i += 1;
