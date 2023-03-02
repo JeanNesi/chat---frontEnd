@@ -7,7 +7,7 @@ function sendMessage(e) {
   var element = document.getElementById("messagesContainer");
 
   const messages = [
-    { text: e.name, className: "myMessage" },
+    { text: "teste", className: "myMessage" },
     { text: "fdsgdsfg", className: "myMessage" },
     { text: "sdfgsdfg", className: "userMessage" },
     { text: "sdfgfgdshjghjkgfhk", className: "userMessage" },
