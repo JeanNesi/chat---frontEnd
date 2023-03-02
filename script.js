@@ -1,8 +1,6 @@
 function sendMessage(e) {
   e.preventDefault();
 
-  console.log(new FormData(e.target));
-
   var i = 0;
   var element = document.getElementById("messagesContainer");
 
