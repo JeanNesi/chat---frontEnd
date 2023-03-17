@@ -20,6 +20,7 @@ async function createMessage({ origin, message, time, status }) {
 
   div.classList.add(origin);
   pHour.classList.add("hour");
+  pMessage.classList.add("message");
 
   div.append(pMessage);
   div.append(pHour);
